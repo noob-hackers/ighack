@@ -69,7 +69,7 @@ $ bash ighack.sh
 * Open new session and start TOR (tor) before starting the attack
 
 ## 📌 ***Screenshot*** :
-![Screenshot_2020-06-22-18-53-12-214_com termux](https://user-images.githubusercontent.com/49580304/85358911-83a76780-b532-11ea-82da-b990ea715337.jpg)
+<img src="https://user-images.githubusercontent.com/49580304/85358911-83a76780-b532-11ea-82da-b990ea715337.jpg" width="80%"></img>
 
 ## 📌 ***Full video tutorial***:
 

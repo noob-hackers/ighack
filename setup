@@ -8,7 +8,7 @@ pkg install python -y
 pkg install python2 -y
 pkg install tor -y
 pkg install git -y
-pkg install wget -Y
+pkg install wget -y
 pip install lolcat
 pip install --upgrade pip
 pip3 install requests --upgrade

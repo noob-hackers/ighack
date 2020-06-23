@@ -1,5 +1,5 @@
-3bin/bash
-clea
+#bin/bash
+clear
 echo
 echo "        Setting up first time installation.....!"
 echo
@@ -8,7 +8,9 @@ pkg install python -y
 pkg install python2 -y
 pkg install tor -y
 pkg install git -y
+pkg install wget -Y
 pip install lolcat
+pip install --upgrade pip
 pip3 install requests --upgrade
 pip3 install requests[socks]
 pip3 install stem

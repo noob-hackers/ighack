@@ -58,8 +58,6 @@ $ bash setup
 ```
 $ bash ighack.sh
 ```
-```
-
 * Now you need internet connection to continue further process...
 
 * You can select any option by clicking on your keyboard

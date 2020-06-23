@@ -34,7 +34,7 @@ echo " "
 echo -e "$grn                updating the IgHack please wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf ighackz
+rm -rf ighack
 git clone https://github.com/noob-hackers/ighack
 clear
 echo " "

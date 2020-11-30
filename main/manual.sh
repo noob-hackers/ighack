@@ -30,7 +30,9 @@ if [ $inspass = 0 ]
 then
 echo -e  "$ylo >>> exiting........! Bye Bye :) <<<$rset"        
 else
-instagram -py --username $usrnm --password-list $inspass
+
+  instagram-py --username $usrnm --password-list $inspass
+
 echo
 sleep 30.0
 cd $HOME

@@ -52,7 +52,7 @@ echo
 torser="tor"
 if pgrep -x "$torser" >/dev/null
 then
-echo#do nothing
+#do nothing
 else
 echo -e "\e[91mTOR\e[96m IS NOT RUNNING, PLEASE START TOR IN A NEW SESSION
           BY TYPING\e[92m tor\e[96m AND START IGHACK AGAIN\e[0m "
@@ -97,11 +97,11 @@ elif [[ $option == 4 || $option == 04 ]]; then
 cd $HOME/ighack/core
 bash update.sh
 elif [[ $option == 5 || $option == 05 ]]; then
-am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel
+am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel 2>/dev/null
 elif [[ $option == 6 || $option == 06 ]]; then
-am start -a android.intent.action.VIEW -d https://bit.ly/3qtargp
+am start -a android.intent.action.VIEW -d https://bit.ly/3qtargp 2>/dev/null
 elif [[ $option == 7 || $option == 07 ]]; then
-am start -a android.intent.action.VIEW -d https://bit.ly/nhfollowus
+am start -a android.intent.action.VIEW -d https://bit.ly/nhfollowus 2>/dev/null
 elif [[ $option == 8 ]]; then
 exit 1
 else

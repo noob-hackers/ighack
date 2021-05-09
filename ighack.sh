@@ -99,7 +99,7 @@ bash update.sh
 elif [[ $option == 5 || $option == 05 ]]; then
 am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel 2>/dev/null
 elif [[ $option == 6 || $option == 06 ]]; then
-am start -a android.intent.action.VIEW -d https://bit.ly/3qtargp 2>/dev/null
+am start -a android.intent.action.VIEW -d https://wa.link/lgespz 2>/dev/null
 elif [[ $option == 7 || $option == 07 ]]; then
 am start -a android.intent.action.VIEW -d https://bit.ly/nhfollowus 2>/dev/null
 elif [[ $option == 8 ]]; then

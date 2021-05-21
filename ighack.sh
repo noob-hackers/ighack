@@ -275,7 +275,7 @@ then
 am start -a android.intent.action.VIEW -d https://noobhacktube.com 2>/dev/null
 clear
 baner1
-menu
+menu1
 elif [ "$p" = "t" ];
 then
 clear

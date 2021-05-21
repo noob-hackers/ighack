@@ -141,7 +141,7 @@ am start -a android.intent.action.VIEW -d https://wa.link/lgespz > /dev/null 2>&
 banner
 menu1
 elif [[ $option == 7 || $option == 07 ]]; then
-echo "ahhaha"
+help
 elif [[ $option == 8 || $option == 08 ]]; then
 more
 baner1

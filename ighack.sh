@@ -144,7 +144,7 @@ elif [[ $option == 7 || $option == 07 ]]; then
 echo "ahhaha"
 elif [[ $option == 8 || $option == 08 ]]; then
 more
-banner
+baner1
 menu1
 elif [[ $option == 9 ]]; then
 exit 1
@@ -280,7 +280,7 @@ elif [ "$p" = "t" ];
 then
 clear
 baner1
-menu
+menu1
 elif [ "$p" = "z" ];
 then
 cd $HOM/ighack

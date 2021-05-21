@@ -49,6 +49,13 @@ pink='\033[1;35m'
 #coding section starts :)
 banner(){
 clear
+if [ -f "$HOME/ighack/setup" ];
+then
+cd $HOME/ighack
+bash setup
+else
+echo
+fi
 ###############
 torser="tor"
 if pgrep -x "$torser" >/dev/null

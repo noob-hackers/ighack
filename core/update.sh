@@ -14,7 +14,7 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m          IGHACK UPDATED V3.2 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
+echo -e "\e[92m          IGHACK UPDATED V3.1 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
 echo -e "\e[96m                ║       \e[93mIghack\e[96m Uptodate\e[93m V3.1\e[96m        ║\e[0m"
 echo -e "\e[96m                ║        No Updates \e[93mRolled Out\e[96m      ║\e[0m"

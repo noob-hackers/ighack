@@ -1,6 +1,6 @@
 cd $HOME/ighack/core/                                                                                     
 update(){                                                                                                             
-if wget --spider https://raw.githubusercontent.com/noob-hackers/ighack/master/update.v1.3 2>/dev/null; then
+if wget --spider https://raw.githubusercontent.com/noob-hackers/ighack/master/update.v3.2 2>/dev/null; then
 cd $HOME/ighack/core
 rm *.txt
 echo "ig" > update.txt
@@ -14,7 +14,7 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m          IGHACK UPDATED V1.2 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
+echo -e "\e[92m          IGHACK UPDATED V3.2 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
 echo -e "\e[96m                ║       \e[93mIghack\e[96m Uptodate\e[93m V1.2\e[96m        ║\e[0m"
 echo -e "\e[96m                ║        No Updates \e[93mRolled Out\e[96m      ║\e[0m"
@@ -51,7 +51,7 @@ echo
 echo
 echo
 echo
-echo -e "\e[92m                 IGHACK NEW UPDATE V1.3 IS AVAILABLE\e[0m"
+echo -e "\e[92m                 IGHACK NEW UPDATE V3.2 IS AVAILABLE\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
 echo -e "\e[96m                ║  \e[93mIghack\e[96m Update Is avaialbe\e[93m V1.3\e[96m   ║\e[0m"
 echo -e "\e[96m                ║    To Update The \e[93mIghack\e[96m Tool      ║\e[0m"

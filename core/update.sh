@@ -16,7 +16,7 @@ echo
 echo
 echo -e "\e[92m          IGHACK UPDATED V3.2 \e[91mNO UPDATES AVAILABLE FOR NOW...!\e[92m\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
-echo -e "\e[96m                ║       \e[93mIghack\e[96m Uptodate\e[93m V1.2\e[96m        ║\e[0m"
+echo -e "\e[96m                ║       \e[93mIghack\e[96m Uptodate\e[93m V3.1\e[96m        ║\e[0m"
 echo -e "\e[96m                ║        No Updates \e[93mRolled Out\e[96m      ║\e[0m"
 echo -e "\e[96m                ║                                   ║\e[0m"
 echo -e "\e[96m                ╚═══════════════════════════════════╝\e[0m"
@@ -53,7 +53,7 @@ echo
 echo
 echo -e "\e[92m                 IGHACK NEW UPDATE V3.2 IS AVAILABLE\e[0m"
 echo -e "\e[96m                ╔═══════════════════════════════════╗\e[0m"
-echo -e "\e[96m                ║  \e[93mIghack\e[96m Update Is avaialbe\e[93m V1.3\e[96m   ║\e[0m"
+echo -e "\e[96m                ║  \e[93mIghack\e[96m Update Is avaialbe\e[93m V3.2\e[96m   ║\e[0m"
 echo -e "\e[96m                ║    To Update The \e[93mIghack\e[96m Tool      ║\e[0m"
 echo -e "\e[96m                ║                                   ║\e[0m"
 echo -e "\e[96m                ║         Select \e[92my\e[96m to update\e[96m        ║\e[0m"
@@ -87,7 +87,7 @@ printf "\e[96m]\e[0m"
 echo
 echo
 echo
-printf "\e[96m                  UPDATE SUCCESSFULL (v1.3)..!\e[0m"
+printf "\e[96m                  UPDATE SUCCESSFULL (v3.2)..!\e[0m"
 sleep 2.0
 cd $HOME/ighack
 bash setup.sh

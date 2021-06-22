@@ -137,7 +137,7 @@ am start -a android.intent.action.VIEW -d https://bit.ly/nhytchannel > /dev/null
 banner
 menu1
 elif [[ $option == 6 || $option == 06 ]]; then
-am start -a android.intent.action.VIEW -d https://wa.link/lgespz > /dev/null 2>&1
+am start -a android.intent.action.VIEW -d https://tinyurl.com/whatschat > /dev/null 2>&1
 banner
 menu1
 elif [[ $option == 7 || $option == 07 ]]; then

@@ -45,9 +45,9 @@ else
 echo
 echo -e  "$ylo >>> exiting........! Bye Bye :) <<<$rset"
 echo
-sleep 1.0
+sleep 50.0
 cd $HOME
 fi
-sleep 10.0
+sleep 50.0
 cd $HOME/ighack
 bash ighack.sh

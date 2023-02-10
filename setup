@@ -24,9 +24,9 @@ echo -e "\e[34mSTABLE CONNECTION [\e[92m✓\e[34m]\e[0m"
 echo -e "\e[34mCHECKING ENVIRONMENT [\e[92m✓\e[34m]\e[0m"
 dpkg --configure -a 
 echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
-apt install -y python2 python tor wget > /dev/null 2>&1
+apt install -y python2 python python3 tor wget > /dev/null 2>&1
 pip install lolcat > /dev/null 2>&1
-pip install --upgrade pip >/dev/null 2>&1
+pip3 install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
 pip3 install stem >/dev/null 2>&1
@@ -39,10 +39,6 @@ cd /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
 rm torrc >/dev/null 2>&1
 cd $HOME/ighack >/dev/null 2>&1
 mv torrc /data/data/com.termux/files/usr/etc/tor >/dev/null 2>&1
-echo -e "\e[34mSCANNING STORAGE....\e[0m"
-FREE=`df -k /storage/emulated | awk '{ print $4 }' | tail -1`
-if [[ $FREE -gt 614400 ]]; then
-echo -e "\e[34mSTORAGE FOUND [\e[92m✓\e[34m]\e[92m"
 center "FINALIZING ALL PROCESS"
 echo -e "\e[91m              SUBSCRIBE\e[93m NOOB HACKERS\e[92m"
 center "[X]COMPLETED SUCCESSFULLY[X]"
@@ -50,8 +46,4 @@ am start -a android.intent.action.VIEW -d https://bitly.com/nhytchannel
 rm setup
 cd $HOME/ighack
 bash ighack.sh
-else
-echo -e "\e[34mNOT ENOUGH STORAGE [\e[91mX\e[34m]\e[0m"
-echo -e "\e[91m                     [X] Free The Storage [X]"
 exit
-fi

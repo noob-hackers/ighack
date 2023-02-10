@@ -26,7 +26,7 @@ dpkg --configure -a
 echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
 apt install -y python2 python python3 tor wget > /dev/null 2>&1
 pip install lolcat > /dev/null 2>&1
-pip3 install --upgrade pip >/dev/null 2>&1
+pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
 pip3 install stem >/dev/null 2>&1

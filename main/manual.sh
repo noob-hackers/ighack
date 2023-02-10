@@ -32,6 +32,7 @@ echo -e  "$ylo >>> exiting........! Bye Bye :) <<<$rset"
 else
 instagram-py --username $usrnm --password-list $inspass
 echo
+sleep 50.0
 cd $HOME
 fi
 cd $HOME/ighack

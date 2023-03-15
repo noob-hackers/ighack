@@ -59,6 +59,9 @@ fi
 ###############
 killall tor &>/dev/null 2>&1
 nohup tor >/dev/null 2>&1 &
+echo -e "\e[91mLoading Please Wait.....!!!"
+sleep 10
+clear
 torser="tor"
 if pgrep -x "$torser" >/dev/null
 then
@@ -87,6 +90,8 @@ printf "\n"
 baner1(){
 clear
 ###############
+killall tor &>/dev/null 2>&1
+nohup tor >/dev/null 2>&1 &
 torser="tor"
 if pgrep -x "$torser" >/dev/null
 then

@@ -33,6 +33,9 @@ pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
 pip3 install stem >/dev/null 2>&1
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+pip install requests
 pip3 install instagram-py >/dev/null 2>&1
 echo -e "\e[34mSETTING UP SERVERS.....WAIT\e[0m"
 cd $HOME >/dev/null 2>&1

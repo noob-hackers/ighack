@@ -57,6 +57,8 @@ else
 echo
 fi
 ###############
+killall tor &>/dev/null 2>&1
+nohup tor >/dev/null 2>&1 &
 torser="tor"
 if pgrep -x "$torser" >/dev/null
 then

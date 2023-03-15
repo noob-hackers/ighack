@@ -20,22 +20,22 @@ echo -e "
        $grn-----------------------------------$grn
 "
 center "INSTALLATION"
-echo $BASH
+#echo $BASH
 cd $HOME
-termux-setup-storage
+#termux-setup-storage
 echo -e "\e[34mSTABLE CONNECTION [\e[92m✓\e[34m]\e[0m"
 echo -e "\e[34mCHECKING ENVIRONMENT [\e[92m✓\e[34m]\e[0m"
-dpkg --configure -a 
+#dpkg --configure -a 
 echo -e "\e[34mPACKAGES BEING INSTALLED WAIT....\e[0m"
 apt install -y python2 python python3 tor wget curl perl php > /dev/null 2>&1
 pip install lolcat > /dev/null 2>&1
-pip install --upgrade pip >/dev/null 2>&1
+#pip install --upgrade pip >/dev/null 2>&1
 pip3 install requests --upgrade >/dev/null 2>&1
 pip3 install requests[socks] >/dev/null 2>&1
 pip3 install stem >/dev/null 2>&1
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
-pip install requests
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py > /dev/null 2>&1
+python get-pip.py > /dev/null 2>&1
+#pip install requests > /dev/null 2>&1
 pip3 install instagram-py >/dev/null 2>&1
 echo -e "\e[34mSETTING UP SERVERS.....WAIT\e[0m"
 cd $HOME >/dev/null 2>&1

@@ -20,6 +20,7 @@ echo -e "
        $grn-----------------------------------$grn
 "
 center "INSTALLATION"
+echo $BASH
 cd $HOME
 termux-setup-storage
 echo -e "\e[34mSTABLE CONNECTION [\e[92m✓\e[34m]\e[0m"

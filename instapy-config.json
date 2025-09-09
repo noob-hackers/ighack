@@ -1,6 +1,6 @@
 {
     "api-url" : "https://i.instagram.com/api/v1/",
-    "user-agent" : "Instagram 76.0.0.15.395 Android (24/7.0; 640dpi; 1440x2560; samsung; SM-G930F; herolte; samsungexynos8890; en_US; 138226743)",
+    "user-agent" : "Instagram 10.26.0 Android (18/4.3; 320dpi; 720x1280; Xiaomi; HM 1SW; armani; qcom; en_US)",
     "ig-sig-key" : "4f8732eb9ba7d1c8e8897a75d6474d4eb3f5279137431b2aafb71fafe2abe178",
     "ig-sig-version" : "4",
     "tor" : { 
